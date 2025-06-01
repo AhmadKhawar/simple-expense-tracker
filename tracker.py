@@ -1,6 +1,5 @@
 print("Welcome to Ahmad's Expense Tracker!")
 print("Hello from Umair!")
-# This is a collaborative project by Ahmad and Umair for Git assignment.
 
 def add_expense():
     amount = input("Enter amount: ")
