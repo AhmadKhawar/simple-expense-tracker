@@ -28,3 +28,4 @@ elif choice == "2":
     view_expenses()
 elif choice == "3":
     delete_expenses()
+    print("Thanks for using our expense tracker!")
