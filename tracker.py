@@ -10,8 +10,13 @@ def view_expenses():
     with open("expenses.txt", "r") as f:
         print(f.read())
 
+def delete_expenses():
+    open("expenses.txt", "w").close()
+    print("All expenses deleted.")
+
 print("1. Add Expense")
 print("2. View Expenses")
+print("3. Delete All Expenses")
 
 choice = input("Choose: ")
 
@@ -19,3 +24,5 @@ if choice == "1":
     add_expense()
 elif choice == "2":
     view_expenses()
+elif choice == "3":
+    delete_expenses()
