@@ -1,3 +1,5 @@
+print("Welcome to Ahmad's Expense Tracker!")
+
 def add_expense():
     amount = input("Enter amount: ")
     category = input("Enter category: ")
