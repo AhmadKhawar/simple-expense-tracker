@@ -1,4 +1,5 @@
 print("Welcome to Ahmad's Expense Tracker!")
+print("Hello from Umair!")
 
 def add_expense():
     amount = input("Enter amount: ")
